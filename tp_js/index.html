@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick y Morty</title>
+  </head>
+  <body>
+    <div id="aplicacion">
+      <header>
+        <h1>Personajes de Rick y Morty</h1>
+        <div class="contenedor-busqueda">
+          <input 
+            type="text" 
+            id="campoBusqueda" 
+            placeholder="Buscar personajes"
+          >
+        </div>
+      </header>
+      <div id="mensajeError" class="mensaje-error"></div>
+      <div id="listaPersonajes" class="cuadricula-personajes"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
